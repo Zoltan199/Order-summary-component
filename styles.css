@@ -20,6 +20,9 @@ body{
 
 main{
     font-family: 'Red Hat Display';
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .container{
@@ -132,4 +135,12 @@ main{
 .cancel:hover{
     cursor: pointer;
     color: var(--darkblue);
+}
+
+@media (min-width: 640px){
+    main{
+        background-image: url(./images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+    }
+
 }
